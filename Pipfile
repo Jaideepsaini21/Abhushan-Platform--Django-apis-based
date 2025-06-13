@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==5.0"
+whitenoise = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+django-import-export = "*"
+pillow = "*"
+channels = {extras = ["daphne"], version = "*"}
+channels-redis = "*"
+daphne = "*"
+django-filter = "*"
+firebase-admin = "*"
+django-editorjs-fields = "*"
+supabase = "*"
+boto3 = "*"
+django-storages = "*"
+django-editorjs = "*"
+psycopg2 = "*"
+python-dotenv = "*"
+django-environ = "*"
+django-cors-headers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
